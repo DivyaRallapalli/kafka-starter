@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "petInfo",
+  "namespace": "com.example.kafka.schema",
+  "doc": "Schema for representing pet information",
+  "fields": [{
+    "name": "name",
+    "type": "string",
+    "default": "dog"
+  },
+    {
+      "name": "age",
+      "type": "int",
+      "default": 3
+    },
+    {
+      "name": "color",
+      "type": "string",
+      "default": "black"
+    }
+  ]
+
+}

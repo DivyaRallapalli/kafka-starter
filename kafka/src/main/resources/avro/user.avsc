@@ -1,0 +1,37 @@
+{
+  "type": "record",
+  "name": "userInfo",
+  "namespace": "com.example.kafka.schema",
+  "doc": "Schema for representing user information",
+  "fields": [{
+    "name": "name",
+    "type": "string",
+    "default": "John Doe"
+  },
+    {
+      "name": "age",
+      "type": "int",
+      "default": 26
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "default": "johndoe@gmail.com"
+    },
+    {
+      "name": "nationality",
+      "type": "string",
+      "default": "American"
+    },
+    {
+      "name": "mobile",
+      "type": "string",
+      "default": "0000000"
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "default": "Male"
+    }]
+
+}
